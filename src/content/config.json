@@ -1,0 +1,385 @@
+{
+  "header": {
+    "image": "/header.jpg",
+    "heading": "Rafael Sahid Barajas Pérez",
+    "subheading": "Computer Systems Engineer"
+  },
+  "footer": {
+    "text": "© 2024 Rafael Barajas."
+  },
+  "sections": {
+    "about": {
+      "image": "/me.JPG",
+      "title": "About Me",
+      "message": "Hi! I'm Rafael, and I am dedicated to increase and apply my expertise in the technological field to develop innovative applications which make a meaningful impact on users' lives, through creative and efficient solutions.",
+      "email": "rafaelsahid.barajas@gmail.com",
+      "phone": "+52 722 621 5750",
+      "download": {
+        "label": "Download CV",
+        "buttons": [
+          { "flag": "US", "label": "EN", "file": "Rafael Barajas CV.pdf" },
+          { "flag": "MX", "label": "ES", "file": "Rafael Barajas CV (ES).pdf" }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "linkedIn",
+          "color": "#0a66c2",
+          "link": "https://www.linkedin.com/in/rafael-barajas-8565b11b3/"
+        },
+        {
+          "icon": "whatsapp",
+          "color": "#25d366",
+          "link": "https://wa.me/+527226215750"
+        },
+        {
+          "icon": "github",
+          "color": "#23262b",
+          "link": "https://github.com/RafitaBarajas"
+        }
+      ]
+    },
+    "experience": {
+      "icon": "experience",
+      "title": "Experience",
+      "items": [
+        {
+          "position": "Application Developer",
+          "company": "PSL Group",
+          "startDate": "October 2022",
+          "endDate": "Today",
+          "abstract": "I am part of one of the development teams at the company",
+          "image": "/psl.png",
+          "tasks": [
+            "I have been working with various applications at PSL. Mainly being a fundamental part of the development team, mostly focused on the Front-End side, of one of the most important and innovative application at the company which involves the use of AI. All this applying our knowledge in React.js, Redux and MUI. Achieving robust, well-structured and scalable code with a better project development methodology for the apps at the company. "
+          ]
+        },
+        {
+          "position": "Full Stack Developer Jr.",
+          "company": "HIXSA",
+          "startDate": "January 2022",
+          "endDate": "September 2022",
+          "abstract": "I was part of the development team at the company.",
+          "image": "/hixsa.jpg",
+          "tasks": [
+            "We developed a web application with React.js and Node.js to manage all the employees and their data from the group of companies HIXSA works with.",
+            "We started collecting all the requirements and designing a Cloud-based application which is aimed to be used by customer-service stablishments, mainly restaurants, to manage their services, products, incomes, inventory, staff, etc.",
+            "We were in a constant technology update of the projects, platforms and products HIXSA uses and provides, from their electronic billing, to the platform they use to manage their product providers. With its respective documentation, update and testing; manipulating technologies such as React.js, Java."
+          ]
+        },
+        {
+          "position": "Full Stack Developer",
+          "company": "Ideen MX",
+          "startDate": "September 2020",
+          "endDate": "December 2021",
+          "abstract": "I was part of the development team at the company.",
+          "image": "/ideen.png",
+          "tasks": [
+            "We programed in Vue.js the main webpage of Ideen which shows the company description, its services, portfolio, contact, and more...",
+            "I developed in Vue.js a webpage for an environmental law firm. It shows their information, services, mission, vision, and where to contact them. The page has a special characteristic where you can change the whole page language.",
+            "We have built an application in Flutter which helps women keep track of their menstrual cycle. Additionally, we implemented a specialists website in Vue.js where qualified experts can register and have contact with the app users to help them with what they need. As long with its correspondent administration app also made in Vue.js, in order to manage the system itself and its users. Both applications are connected to a Firebase database.",
+            "We developed, with Flutter and Firebase, a system which manages the main operations of a local marketer; it includes managing prices, creating tickets, having staff profiles, managing inventory, etc."
+          ],
+          "links": [
+            "https://ideen.mx/",
+            "https://lacandonia.com.mx/",
+            "https://kuida.io/",
+            null
+          ]
+        },
+        {
+          "position": "Microsoft Artificial Intelligence Challenge",
+          "startDate": "October 2020",
+          "abstract": "I participated at the AI Gaming Microsoft event. Where we had a few hours to develop an Intelligence which played 'Memorama', choosing the best strategy for the AI to open the cards, with the help of Azure Image Analysis service.",
+          "image": "/ai_gaming.jpg",
+          "border": true
+        },
+        {
+          "position": "Academic Excellence",
+          "startDate": "Terms 2018/1, 2018/2, 2019/1, 2019/2, 2020/1, 2020/2, 2021/1, 2021/2",
+          "abstract": "Student member of Academic Excellence in Computer Systems Engineering educational program."
+        },
+        {
+          "position": "Competition Robot Simulator",
+          "startDate": "January",
+          "endDate": "May 2017",
+          "abstract": "I programmed a simulator in Unity (C#) of the FRC Steamworks competition as a contribution to the team, Tecbot 3158. It was based on the physics, controls and movement of the Robot used in the real competition, with the main objective of avoiding material expenses at driver training.",
+          "image": "/unity.png"
+        }
+      ],
+      "toExpand": {
+        "label": "Before 2017",
+        "items": [
+          {
+            "position": "Third Place Winner at Hack n' Jam",
+            "startDate": "April 2016",
+            "abstract": "I was part of the third place winner team at this competition where we had 24 hours to develop a videogame or application. We programmed a game in Unity (C#) with various minigames where the main one being an ambulance racing.",
+            "image": "/hack_n_jam_2016.jpg",
+            "border": true
+          },
+          {
+            "position": "Competitive Robot Programming",
+            "startDate": "January",
+            "endDate": "May 2016",
+            "abstract": "I collaborated in programming with Java the Robot for the International FRC competition as part of team Tecbot 3158. With this robot we obtained 1st place at the Mexico City Regional, 8th at the 'Robotique Festival' in Montreal and participated at the International Championship in St. Louis Missouri.",
+            "image": "/first_robotics.png"
+          },
+          {
+            "position": "Participation at Hack n' Jam",
+            "startDate": "November 2017",
+            "abstract": "I was part of a team at this competition where I programmed a section of the main videogame in Unity (C#) implementing augmented reality technologies.",
+            "image": "/hack_n_jam_2017.jpg",
+            "border": true
+          }
+        ]
+      }
+    },
+    "certificates": {
+      "title": "Certificates",
+      "tabs": [
+        {
+          "label": "Front End",
+          "items": [
+            {
+              "title": "React for Enterprise",
+              "note": "Advanced React",
+              "image": "advanced_react_enterprise.png",
+              "file": "advanced_react_enterprise.pdf"
+            },
+            {
+              "title": "Flutter Developement",
+              "note": "Dart",
+              "image": "flutter_dev_bootcamp.png",
+              "file": "flutter_dev_bootcamp.pdf"
+            },
+            {
+              "title": "Front-End Development",
+              "note": "React",
+              "image": "front_end_web_dev_react.png",
+              "file": "front_end_web_dev_react.pdf"
+            },
+            {
+              "title": "Front-End UI Frameworks",
+              "note": "Bootstrap 4",
+              "image": "front_end_web_frameworks_bootstrap.png",
+              "file": "front_end_web_frameworks_bootstrap.pdf"
+            },
+            {
+              "title": "Mobile App Development",
+              "note": "React Native",
+              "image": "mobile_app_dev_react_native.png",
+              "file": "mobile_app_dev_react_native.pdf"
+            }
+          ]
+        },
+        {
+          "label": "JavaScript",
+          "items": [
+            {
+              "title": "Advanced JavaScript",
+              "note": "ES6 - ES2017",
+              "image": "guide_advanced_javascript_es6.png",
+              "file": "guide_advanced_javascript_es6.pdf"
+            },
+            {
+              "title": "Modern JavaScript",
+              "note": "ES6 Basics",
+              "image": "javascript_es6.png",
+              "file": "javascript_es6.pdf"
+            }
+          ]
+        },
+        {
+          "label": "Components and Styles",
+          "items": [
+            {
+              "title": "Component Styling",
+              "note": "Advanced Material-UI",
+              "image": "advanced_mui.png",
+              "file": "advanced_mui.pdf"
+            },
+            {
+              "title": "SASS",
+              "note": "CSS Preprocessor",
+              "image": "sass_course.png",
+              "file": "sass_course.pdf"
+            }
+          ]
+        },
+        {
+          "label": "Testing",
+          "items": [
+            {
+              "title": "Testing React",
+              "note": "Jest and React Testing Library",
+              "image": "jest_react_testing_library.png",
+              "file": "jest_react_testing_library.pdf"
+            }
+          ]
+        },
+        {
+          "label": "Conferences and Contests",
+          "items": [
+            {
+              "title": "JSNation US 2024",
+              "note": "Javascript Conference",
+              "image": "jsnation_us_2024.png",
+              "file": "jsnation_us_2024.png"
+            },
+            {
+              "title": "React Summit US 2024",
+              "note": "React Conference",
+              "image": "react_summit_us_2024.png",
+              "file": "react_summit_us_2024.png"
+            },
+            {
+              "title": "AI Contest",
+              "note": "Microsoft - AI Gaming",
+              "image": "ai_gaming.jpg",
+              "file": "ai_gaming.pdf"
+            }
+          ]
+        },
+        {
+          "label": "Security App Dev",
+          "items": [
+            {
+              "title": "Secure Application Development",
+              "note": "Data Hygiene",
+              "image": "security_app_dev_data_hygiene.png",
+              "file": "security_app_dev_data_hygiene.pdf"
+            },
+            {
+              "title": "Secure Application Development",
+              "note": "Memory Management",
+              "image": "security_app_dev_memory_management.png",
+              "file": "security_app_dev_memory_management.pdf"
+            },
+            {
+              "title": "Secure Application Development",
+              "note": "OWASP 2021",
+              "image": "security_app_dev_owasp_2021.png",
+              "file": "security_app_dev_owasp_2021.pdf"
+            },
+            {
+              "title": "Secure Application Development",
+              "note": "Password Hygiene",
+              "image": "security_app_dev_password_hygiene.png",
+              "file": "security_app_dev_password_hygiene.pdf"
+            },
+            {
+              "title": "Secure Application Development",
+              "note": "Protecting Source Code",
+              "image": "security_app_dev_protect_code.png",
+              "file": "security_app_dev_protect_code.pdf"
+            }
+          ]
+        },
+        {
+          "label": "Security Awareness",
+          "items": [
+            {
+              "title": "Two-Factor Authentication Attack",
+              "note": "Kevin Mitnick",
+              "image": "security_awareness_2_factor_auth_attack.png",
+              "file": "security_awareness_2_factor_auth_attack.pdf"
+            },
+            {
+              "title": "Social Engineering",
+              "note": "Kevin Mitnick",
+              "image": "security_awareness_2_factor_social_engineering.png",
+              "file": "security_awareness_2_factor_social_engineering.pdf"
+            },
+            {
+              "title": "Security Awareness",
+              "note": "Security Culture",
+              "image": "security_awareness_culture.png",
+              "file": "security_awareness_culture.pdf"
+            },
+            {
+              "title": "Security Awareness",
+              "note": "Danger Zone",
+              "image": "security_awareness_danger_zone.png",
+              "file": "security_awareness_danger_zone.pdf"
+            },
+            {
+              "title": "Security Awareness Training",
+              "note": "Kevin Mitnick - 2022",
+              "image": "security_awareness_kevin_mitnick_2022.png",
+              "file": "security_awareness_kevin_mitnick_2022.pdf"
+            },
+            {
+              "title": "Security Awareness Training",
+              "note": "Kevin Mitnick - 2023",
+              "image": "security_awareness_kevin_mitnick_2023.png",
+              "file": "security_awareness_kevin_mitnick_2023.pdf"
+            },
+            {
+              "title": "Security Awareness Training",
+              "note": "Kevin Mitnick - 2024",
+              "image": "security_awareness_kevin_mitnick_2024.png",
+              "file": "security_awareness_kevin_mitnick_2024.pdf"
+            },
+            {
+              "title": "Security Awareness",
+              "note": "Mobile Device Security",
+              "image": "security_awareness_mobile_device.png",
+              "file": "security_awareness_mobile_device.pdf"
+            },
+            {
+              "title": "Security Training",
+              "note": "Personal Information",
+              "image": "security_awareness_personal_info.png",
+              "file": "security_awareness_personal_info.pdf"
+            },
+            {
+              "title": "Security Awareness",
+              "note": "Phishing Foundations",
+              "image": "security_awareness_phishing_foundations.png",
+              "file": "security_awareness_phishing_foundations.pdf"
+            },
+            {
+              "title": "Security Awareness",
+              "note": "QR Codes - Safe Scanning",
+              "image": "security_awareness_qr_codes.png",
+              "file": "security_awareness_qr_codes.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "academic": {
+      "icon": "academic",
+      "title": "Academic Background",
+      "items": [
+        {
+          "position": "Computer Systems Engineer",
+          "startDate": "Instituto Politécnico Nacional",
+          "abstract": "Escuela Superior de Cómputo (2017 - 2022)",
+          "image": "/ipn_escom.png"
+        },
+        {
+          "position": "Languages",
+          "startDate": "English - Advanced (633 TOEFL score)",
+          "abstract": "German - Intermediate A2<br/>Spanish - Native",
+          "image": "/languages.png"
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "image": "/techo.svg",
+      "texts": [
+        "I participated in more than 6 constructions of emergency living places for poverty-stricken people in the communities of Santa Ana Jilotzingo, Joquicingo de León Guzmán, San Pedro Zictepec, Cóporo and Tlachaloya, with an organization named “Techo”.",
+        "I also collaborated in two money raisings for “Techo”, which was used for the materials at the emergency living places built around the country."
+      ],
+      "images": [
+        "/volunteering5.jpg",
+        "/volunteering1.jpg",
+        "/volunteering2.jpg",
+        "/volunteering3.jpg",
+        "/volunteering4.jpg"
+      ]
+    }
+  }
+}
