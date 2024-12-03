@@ -1,12 +1,13 @@
-import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom"
 import { ThemeProvider } from "@mui/material"
 
 import Main from "./modules/Main"
 import theme from "./theme"
 import "./index.css"
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.render(
   <ThemeProvider theme={theme}>
     <Main />
-  </ThemeProvider>
+  </ThemeProvider>,
+  document.getElementById("root")
 )
