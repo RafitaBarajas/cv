@@ -252,7 +252,7 @@ const AboutMe = ({
   return (
     <Container>
       <Box className="imageContainer">
-        <img src={`src/content/images${image}`} alt="Rafael Barajas" />
+        <img src={`/images${image}`} alt="Rafael Barajas" />
       </Box>
       <Box className="infoContainer">
         <Box className="titleContainer">

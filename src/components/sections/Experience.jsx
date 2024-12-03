@@ -162,7 +162,7 @@ export const ExperienceItem = ({
               }
             }}
           >
-            <img src={`src/content/images${image}`} alt={image} />
+            <img src={`/images${image}`} alt={image} />
           </Box>
         )}
         <Box

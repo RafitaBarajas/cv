@@ -65,7 +65,7 @@ const viewsStyles = {
 
 const SlideItem = ({ title, note, image, file, onClick }) => (
   <div className="slideItem" onClick={() => onClick(file)}>
-    <img src={`src/content/images/certificates/${image}`} alt={image} />
+    <img src={`/images/certificates/${image}`} alt={image} />
     <Typography className="itemTitle">{title}</Typography>
     <Typography className="itemNote">{note}</Typography>
   </div>

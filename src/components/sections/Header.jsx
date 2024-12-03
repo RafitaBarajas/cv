@@ -5,7 +5,7 @@ const Container = styled(Box, {
   label: "Header-Container",
   shouldForwardProp: (prop) => prop !== "image"
 })(({ image }) => ({
-  backgroundImage: `url(src/content/images${image})`,
+  backgroundImage: `url(/images${image})`,
   backgroundSize: "cover",
   "> div": {
     width: "100%",

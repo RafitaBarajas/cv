@@ -47,11 +47,7 @@ const Volunteering = ({ title, image, texts, images }) => (
       {getIcon("volunteering")}
       <Typography>{title}</Typography>
     </Box>
-    <img
-      className="mainImage"
-      src={`src/content/images${image}`}
-      alt="Techo Logo"
-    />
+    <img className="mainImage" src={`/images${image}`} alt="Techo Logo" />
     {texts.map((text, index) => (
       <Typography key={index} className="text">
         {text}
@@ -60,7 +56,7 @@ const Volunteering = ({ title, image, texts, images }) => (
     <ImageList variant="quilted" cols={12}>
       {images.map((image, index) => (
         <ImageListItem key={image} cols={index > 1 ? 4 : 6}>
-          <img src={`src/content/images${image}`} alt={image.title} />
+          <img src={`/images${image}`} alt={image.title} />
         </ImageListItem>
       ))}
     </ImageList>
