@@ -40,6 +40,12 @@ const SlideContainer = styled(Box, { label: "Certificates-Slide" })({
     maxWidth: "250px",
     margin: "20px",
     "& img": { maxWidth: "250px", marginBottom: "10px" },
+    "& .hoverImage": {
+      transform: "scale(1)",
+      position: "absolute",
+      transition: "0.3s",
+      "&:hover": { transform: "scale(1.3)", zIndex: 1 }
+    },
     "& .itemTitle": { textAlign: "center", fontSize: "19px", fontWeight: 500 },
     "& .itemNote": { textAlign: "center", fontWeight: 500, color: "#777777" }
   },
@@ -60,12 +66,18 @@ const SlideContainer = styled(Box, { label: "Certificates-Slide" })({
 const viewsStyles = {
   border: "5px solid #FFB600",
   borderRadius: "20px",
-  paddingTop: "20px"
+  paddingTop: "20px",
+  overflow: "hidden"
 }
 
 const SlideItem = ({ title, note, image, file, onClick }) => (
   <div className="slideItem" onClick={() => onClick(file)}>
     <img src={`/images/certificates/${image}`} alt={image} />
+    <img
+      src={`/images/certificates/${image}`}
+      className="hoverImage"
+      alt={image}
+    />
     <Typography className="itemTitle">{title}</Typography>
     <Typography className="itemNote">{note}</Typography>
   </div>
