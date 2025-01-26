@@ -5,7 +5,7 @@
     "subheading": "Computer Systems Engineer"
   },
   "footer": {
-    "text": "© 2024 Rafael Barajas."
+    "text": "© {%year%} Rafael Barajas."
   },
   "sections": {
     "about": {
@@ -108,7 +108,7 @@
         }
       ],
       "toExpand": {
-        "label": "Before 2017",
+        "label": "Show more",
         "items": [
           {
             "position": "Third Place Winner at Hack n' Jam",
@@ -133,6 +133,36 @@
           }
         ]
       }
+    },
+    "projects": {
+      "title": "Personal Projects",
+      "icon": "laptop",
+      "items": [
+        {
+          "label": "This web page!",
+          "description": "I made this webpage to show my professional profile and experience.",
+          "image": "/this_page.png",
+          "link": "https://www.rafaelbarajas.com/"
+        },
+        {
+          "label": "Sushi Restaurant",
+          "description": "I developed a webpage for a sushi restaurant. With a new experience for customers to explore its menu.",
+          "image": "/sushi_page.png",
+          "link": "https://sushi.rafaelbarajas.com/"
+        },
+        {
+          "label": "Coffee Shop",
+          "description": "I developed an example webpage of a coffee shop.",
+          "image": "/coffee_page.png",
+          "link": "https://coffee.examples.rafaelbarajas.com/"
+        },
+        {
+          "label": "Veterinary Clinic",
+          "description": "I developed an example webpage of a veterinary clinic.",
+          "image": "/veterinary_page.png",
+          "link": "https://vet.examples.rafaelbarajas.com/"
+        }
+      ]
     },
     "certificates": {
       "title": "Certificates",

@@ -10,6 +10,7 @@ import Experience from "../components/sections/Experience"
 import Certificates from "../components/sections/Certificates"
 import Volunteering from "../components/sections/Volunteering"
 import Footer from "../components/Footer"
+import Projects from "../components/sections/Projects"
 
 const Main = () => {
   const isMobile = useMediaQuery("(max-width: 870px)")
@@ -19,6 +20,7 @@ const Main = () => {
 
   const aboutMeRef = useRef(null)
   const experienceRef = useRef(null)
+  const projectsRef = useRef(null)
   const certificatesRef = useRef(null)
   const backgroundRef = useRef(null)
   const academicRef = useRef(null)
@@ -39,6 +41,7 @@ const Main = () => {
         refs={[
           aboutMeRef,
           experienceRef,
+          projectsRef,
           certificatesRef,
           backgroundRef,
           academicRef
@@ -58,6 +61,8 @@ const Main = () => {
         <AboutMe {...config?.sections?.about} />
         <Divider ref={experienceRef} {...dividerProps} />
         <Experience {...config?.sections?.experience} />
+        <Divider ref={projectsRef} {...dividerProps} />
+        <Projects {...config?.sections?.projects} />
         <Divider ref={certificatesRef} {...dividerProps} />
         <Certificates {...config?.sections?.certificates} />
         <Divider ref={backgroundRef} {...dividerProps} />

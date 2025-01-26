@@ -12,11 +12,16 @@ const FooterStyled = styled(Box)(({ theme }) => ({
   "& p": { fontSize: "17px" }
 }))
 
-const Footer = ({ text }) => (
-  <FooterStyled>
-    <Typography>{text}</Typography>
-  </FooterStyled>
-)
+const Footer = ({ text }) => {
+  const currentYear = new Date().getFullYear()
+  const parsedText = text.replace("{%year%}", currentYear)
+
+  return (
+    <FooterStyled>
+      <Typography>{parsedText}</Typography>
+    </FooterStyled>
+  )
+}
 Footer.propTypes = { text: PropTypes.string }
 
 export default Footer

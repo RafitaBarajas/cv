@@ -7,6 +7,7 @@ import {
   faEnvelope,
   faGraduationCap,
   faHandshakeAngle,
+  faLaptopCode,
   faPhone,
   faUser
 } from "@fortawesome/free-solid-svg-icons"
@@ -44,12 +45,17 @@ const getIcon = (key, props = {}) => {
       return <FontAwesomeIcon {...props} icon={faGithub} />
     case "external":
       return <FontAwesomeIcon {...props} icon={faArrowUpRightFromSquare} />
+    case "projects":
+    case "laptop":
+      return <FontAwesomeIcon {...props} icon={faLaptopCode} />
     case "download":
       return <FileDownload {...props} />
     case "menu":
       return <Menu {...props} />
     case "arrowUp":
       return <KeyboardArrowUp {...props} />
+    case "arrowSquare":
+      return <FontAwesomeIcon {...props} icon={faArrowUpRightFromSquare} />
     default:
       return <Inbox {...props} />
   }
