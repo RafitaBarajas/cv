@@ -39,6 +39,7 @@ const Container = styled(Box, { label: "Projects-Container" })(({ theme }) => ({
     "& .carousel-container": { width: "100%", height: "100%" }
   },
   "@media all and (max-width: 970px)": { padding: "50px 30px 40px" },
+  "@media all and (max-width: 500px)": { padding: "50px 15px 40px" },
   "@media all and (max-width: 465px)": {
     "& .titleContainer": {
       "& p": { textAlign: "center", width: "min-content" }
